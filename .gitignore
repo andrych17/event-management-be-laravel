@@ -1,0 +1,64 @@
+# Laravel Specific
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/public/build
+/storage/*.key
+/storage/pail
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Laravel Nova
+/.nova
+
+# Laravel Telescope
+/storage/telescope
+
+# Laravel IDE Helper
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
+
+# PHPUnit & Testing
+/.phpunit.cache
+.phpunit.result.cache
+coverage/
+.coverage
+.coverage.xml
+*.coveragexml
+
+# Composer
+composer.phar
+/vendor/
+auth.json
+
+# NPM & Yarn
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Build & Cache
+/public/css
+/public/js
+/public/mix-manifest.json
+/.cache
+*.cache
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE generated files
+.phpactor.json
+/.phpstorm.meta.php
